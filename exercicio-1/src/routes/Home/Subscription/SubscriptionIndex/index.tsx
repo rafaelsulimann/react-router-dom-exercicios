@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Card from "../../../../components/Card";
 import PrimaryButton from "../../../../components/PrimaryButton";
-import './styles.scss';
+import "./styles.scss";
 
 export default function SubscriptionIndex() {
   return (
@@ -10,9 +10,11 @@ export default function SubscriptionIndex() {
         <Card placeholderName="Página de inscrição" />
       </section>
       <section className="subscription-button">
-        <Link to="/subscription/confirmation" className="subscription-button-link">
-          <PrimaryButton buttonText="Inscrever-se" />
-        </Link>
+        <PrimaryButton
+          buttonText="Inscrever-se"
+          buttonLinkTo="/subscription/confirmation"
+          className="subscription-button-link"
+        />
       </section>
     </main>
   );

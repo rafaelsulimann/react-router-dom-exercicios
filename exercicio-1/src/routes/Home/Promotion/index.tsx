@@ -10,9 +10,11 @@ export default function Promotion() {
         <Card placeholderName="Página de promoção" />
       </section>
       <section className="promotion-button">
-        <Link to="/subscription" className="promotion-button-link">
-          <PrimaryButton buttonText="Quero participar" />
-        </Link>
+        <PrimaryButton
+          buttonText="Quero participar"
+          buttonLinkTo="/subscription"
+          className="promotion-button-link"
+        />
       </section>
     </main>
   );

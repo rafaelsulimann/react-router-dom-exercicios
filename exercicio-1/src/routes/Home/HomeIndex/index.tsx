@@ -10,9 +10,11 @@ export default function HomeIndex() {
         <Card placeholderName="Página inicial" />
       </section>
       <section className="home-index-button">
-        <Link to="/promotion" className="home-index-button-link">
-          <PrimaryButton buttonText="Ver promoção" />
-        </Link>
+        <PrimaryButton
+          buttonText="Ver promoção"
+          buttonLinkTo="/promotion"
+          className="home-index-button-link"
+        />
       </section>
     </main>
   );
