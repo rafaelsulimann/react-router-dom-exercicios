@@ -1,0 +1,13 @@
+.subscription {
+    height: 100vh;
+    .subscription-title {
+        padding: 38px 20px 47px 20px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 38.73px;
+        color: var(--gray-color);
+    }
+    .subscription-card {
+        margin-bottom: 30px;
+    }
+}

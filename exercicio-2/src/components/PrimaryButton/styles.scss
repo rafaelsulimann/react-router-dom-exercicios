@@ -1,0 +1,17 @@
+.primary-button-container {
+    .primary-button {
+        input {
+            min-height: 45px;
+            width: 150px;
+            background-color: var(--red-color);
+            color: var(--white-color);
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19.36px;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+}
