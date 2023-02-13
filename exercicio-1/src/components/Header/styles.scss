@@ -1,0 +1,23 @@
+.header {
+    background-color: var(--red-color);
+    display: flex;
+    align-items: center;
+    .header-container {
+        @media(max-width: 960px){
+            padding: 20px;
+        }
+    }
+    .header-nav {
+        h1 {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24.2px;
+            color: var(--white-color);
+        }
+        .header-nav-link {
+            text-decoration: none;
+            display: flex;
+            width: 0px;
+        }
+    }
+}
